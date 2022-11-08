@@ -1,0 +1,21 @@
+{
+  "qInfo": {
+    "qId": "007e75d2-452a-42b5-b924-b66576b69a76",
+    "qType": "dimension"
+  },
+  "qDim": {
+    "qGrouping": "N",
+    "qFieldDefs": [
+      "Product Line Desc"
+    ],
+    "qFieldLabels": [
+      "Product Line"
+    ],
+    "title": "Product Line"
+  },
+  "qMetaDef": {
+    "title": "Product Line",
+    "description": "",
+    "tags": []
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "qInfo": {
+    "qId": "MGKVm",
+    "qType": "measure"
+  },
+  "qMeasure": {
+    "qLabel": "Central Margin %",
+    "qDef": "Sum({$ <[Region Name]={\"Central\"}> }[Sales Margin Amount])/Sum({$ <[Region Name]={\"Central\"}> }[Sales Amount])",
+    "qGrouping": "N",
+    "qExpressions": [],
+    "qActiveExpression": 0,
+    "qNumFormat": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    }
+  },
+  "qMetaDef": {
+    "title": "Central Margin %",
+    "description": "",
+    "tags": []
+  }
+}

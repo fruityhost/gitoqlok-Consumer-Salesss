@@ -1,0 +1,23 @@
+{
+  "qInfo": {
+    "qId": "ynPrH",
+    "qType": "measure"
+  },
+  "qMeasure": {
+    "qLabel": "Lost Customer Count",
+    "qDef": "Count({$<Cust_Lost={\"1\"}>} distinct Customer)",
+    "qGrouping": "N",
+    "qExpressions": [],
+    "qActiveExpression": 0,
+    "qNumFormat": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    }
+  },
+  "qMetaDef": {
+    "title": "Lost Customer Count",
+    "description": "",
+    "tags": []
+  }
+}

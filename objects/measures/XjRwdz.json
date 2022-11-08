@@ -1,0 +1,23 @@
+{
+  "qInfo": {
+    "qId": "XjRwdz",
+    "qType": "measure"
+  },
+  "qMeasure": {
+    "qLabel": "Late Shipments",
+    "qDef": "count(distinct If([Late Shipment] = 1 ,Shipments))",
+    "qGrouping": "N",
+    "qExpressions": [],
+    "qActiveExpression": 0,
+    "qNumFormat": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    }
+  },
+  "qMetaDef": {
+    "title": "Late Shipments",
+    "description": "",
+    "tags": []
+  }
+}

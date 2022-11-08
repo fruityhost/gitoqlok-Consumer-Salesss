@@ -1,0 +1,23 @@
+{
+  "qInfo": {
+    "qId": "JesHLj",
+    "qType": "measure"
+  },
+  "qMeasure": {
+    "qLabel": "Northeast Margin %",
+    "qDef": "Sum({$ <[Region Name]={\"Northeast\"}> }[Sales Margin Amount])/Sum({$ <[Region Name]={\"Northeast\"}> }[Sales Amount])",
+    "qGrouping": "N",
+    "qExpressions": [],
+    "qActiveExpression": 0,
+    "qNumFormat": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    }
+  },
+  "qMetaDef": {
+    "title": "Northeast Margin %",
+    "description": "",
+    "tags": []
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "qInfo": {
+    "qId": "8566e158-7f06-4324-9e73-d7688b574821",
+    "qType": "dimension"
+  },
+  "qDim": {
+    "qGrouping": "N",
+    "qFieldDefs": [
+      "Product Type Desc"
+    ],
+    "qFieldLabels": [
+      "Product Type Desc"
+    ],
+    "title": "Product Type Desc"
+  },
+  "qMetaDef": {
+    "title": "Product Type Desc",
+    "description": "",
+    "tags": []
+  }
+}

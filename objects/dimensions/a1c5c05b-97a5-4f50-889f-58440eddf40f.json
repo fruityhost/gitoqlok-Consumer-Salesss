@@ -1,0 +1,21 @@
+{
+  "qInfo": {
+    "qId": "a1c5c05b-97a5-4f50-889f-58440eddf40f",
+    "qType": "dimension"
+  },
+  "qDim": {
+    "qGrouping": "N",
+    "qFieldDefs": [
+      "Invoice Date"
+    ],
+    "qFieldLabels": [
+      "Invoice Date"
+    ],
+    "title": "Invoice Date"
+  },
+  "qMetaDef": {
+    "title": "Invoice Date",
+    "description": "",
+    "tags": []
+  }
+}

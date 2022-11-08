@@ -1,0 +1,23 @@
+{
+  "qInfo": {
+    "qId": "Hzya",
+    "qType": "measure"
+  },
+  "qMeasure": {
+    "qLabel": "Northeast Revenue",
+    "qDef": "Sum({$<[Region Name]={\"Northeast\"}>}   [Sales Quantity]*[Sales Price])",
+    "qGrouping": "N",
+    "qExpressions": [],
+    "qActiveExpression": 0,
+    "qNumFormat": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    }
+  },
+  "qMetaDef": {
+    "title": "Northeast Revenue",
+    "description": "",
+    "tags": []
+  }
+}

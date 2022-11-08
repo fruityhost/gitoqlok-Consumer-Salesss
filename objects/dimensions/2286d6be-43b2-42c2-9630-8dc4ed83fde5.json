@@ -1,0 +1,21 @@
+{
+  "qInfo": {
+    "qId": "2286d6be-43b2-42c2-9630-8dc4ed83fde5",
+    "qType": "dimension"
+  },
+  "qDim": {
+    "qGrouping": "N",
+    "qFieldDefs": [
+      "Basket Produce Line"
+    ],
+    "qFieldLabels": [
+      "Basket Produce Line"
+    ],
+    "title": "Basket Produce Line"
+  },
+  "qMetaDef": {
+    "title": "Basket Produce Line",
+    "description": "",
+    "tags": []
+  }
+}

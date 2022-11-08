@@ -1,0 +1,21 @@
+{
+  "qInfo": {
+    "qId": "EyEkgTn",
+    "qType": "dimension"
+  },
+  "qDim": {
+    "qGrouping": "N",
+    "qFieldDefs": [
+      "textBudgetPeriod"
+    ],
+    "qFieldLabels": [
+      "Budget Period"
+    ],
+    "title": "Budget Period"
+  },
+  "qMetaDef": {
+    "title": "Budget Period",
+    "description": "",
+    "tags": []
+  }
+}

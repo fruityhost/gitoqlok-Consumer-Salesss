@@ -1,0 +1,21 @@
+{
+  "qInfo": {
+    "qId": "194ec95b-6cce-4d90-ba53-c099c762f14b",
+    "qType": "dimension"
+  },
+  "qDim": {
+    "qGrouping": "N",
+    "qFieldDefs": [
+      "BasketItem"
+    ],
+    "qFieldLabels": [
+      "Basket Item"
+    ],
+    "title": "Basket Item"
+  },
+  "qMetaDef": {
+    "title": "Basket Item",
+    "description": "",
+    "tags": []
+  }
+}

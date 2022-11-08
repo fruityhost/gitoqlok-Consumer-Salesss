@@ -1,0 +1,23 @@
+{
+  "qInfo": {
+    "qId": "VcPTPJj",
+    "qType": "measure"
+  },
+  "qMeasure": {
+    "qLabel": "Sales Variance %",
+    "qDef": "(sum([YTD Sales Amount])-sum([LY YTD Sales Amount]))/sum([LY YTD Sales Amount])",
+    "qGrouping": "N",
+    "qExpressions": [],
+    "qActiveExpression": 0,
+    "qNumFormat": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    }
+  },
+  "qMetaDef": {
+    "title": "Sales Variance %",
+    "description": "",
+    "tags": []
+  }
+}

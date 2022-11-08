@@ -1,0 +1,21 @@
+{
+  "qInfo": {
+    "qId": "af474ee7-aa28-4870-9ffb-790f201c1cc3",
+    "qType": "dimension"
+  },
+  "qDim": {
+    "qGrouping": "N",
+    "qFieldDefs": [
+      "Basket Product Group Desc"
+    ],
+    "qFieldLabels": [
+      "Basket Product Group Desc"
+    ],
+    "title": "Basket Product Group Desc"
+  },
+  "qMetaDef": {
+    "title": "Basket Product Group Desc",
+    "description": "",
+    "tags": []
+  }
+}

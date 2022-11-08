@@ -1,0 +1,23 @@
+{
+  "qInfo": {
+    "qId": "ADDpyq",
+    "qType": "measure"
+  },
+  "qMeasure": {
+    "qLabel": "Sales vs Budget %",
+    "qDef": "Sum ([Budget Amount])/Sum ([Actual Amount])",
+    "qGrouping": "N",
+    "qExpressions": [],
+    "qActiveExpression": 0,
+    "qNumFormat": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    }
+  },
+  "qMetaDef": {
+    "title": "Sales vs Budget %",
+    "description": "",
+    "tags": []
+  }
+}

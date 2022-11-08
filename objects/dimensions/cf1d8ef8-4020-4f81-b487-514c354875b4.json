@@ -1,0 +1,21 @@
+{
+  "qInfo": {
+    "qId": "cf1d8ef8-4020-4f81-b487-514c354875b4",
+    "qType": "dimension"
+  },
+  "qDim": {
+    "qGrouping": "N",
+    "qFieldDefs": [
+      "Region Name"
+    ],
+    "qFieldLabels": [
+      "Region Name"
+    ],
+    "title": "Region Name"
+  },
+  "qMetaDef": {
+    "title": "Region Name",
+    "description": "",
+    "tags": []
+  }
+}

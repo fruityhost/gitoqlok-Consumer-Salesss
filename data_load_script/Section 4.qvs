@@ -1,0 +1,216 @@
+///$tab Section 4
+LOAD
+    "Product Group Desc",
+    "Product Group"
+FROM [lib://Customer Good Sales Data2 (ip-0ab2a663_chuck)/Customer Good Sales DataFinalProductGroup.QVD]
+(qvd);
+
+LOAD
+    "Product Line Desc",
+    "Product Line"
+FROM [lib://Customer Good Sales Data2 (ip-0ab2a663_chuck)/Customer Good Sales DataFinalProductLine.QVD]
+(qvd);
+
+LOAD
+    "Product Sub Group Desc",
+    "Product Sub Group"
+FROM [lib://Customer Good Sales Data2 (ip-0ab2a663_chuck)/Customer Good Sales DataFinalProductSubGroup.QVD]
+(qvd);
+
+LOAD
+    "Product Type Desc",
+    "Product Type"
+FROM [lib://Customer Good Sales Data2 (ip-0ab2a663_chuck)/Customer Good Sales DataFinalProductType.QVD]
+(qvd);
+
+LOAD
+    "Regional Sales Mgr Name",
+    "Regional Sales Mgr"
+FROM [lib://Customer Good Sales Data2 (ip-0ab2a663_chuck)/Customer Good Sales DataFinalRegional.QVD]
+(qvd);
+
+LOAD
+    "Order Number",
+    "Address Number Header",
+    "Order Gross Amount",
+    "Order Type Header",
+    "Business Unit Order Header",
+    "Order Date Header",
+    "Hold Orders Code Header",
+    "Company Number Header",
+    "Stop Code Header",
+    "Zone Code Header",
+    "Hold Code Header",
+    "Ship To Address Header",
+    "Parent Address Number Header",
+    "Orderby Header",
+    "Freight Code Header"
+FROM [lib://Customer Good Sales Data2 (ip-0ab2a663_chuck)/Customer Good Sales DataFinalSalesHeader.QVD]
+(qvd);
+
+LOAD
+    "Region Name",
+    "Region Code"
+FROM [lib://Customer Good Sales Data2 (ip-0ab2a663_chuck)/Customer Good Sales DataFinalSalesRegion.QVD]
+(qvd);
+
+LOAD
+    "Sales Rep",
+    "Sales Rep Name"
+FROM [lib://Customer Good Sales Data2 (ip-0ab2a663_chuck)/Customer Good Sales DataFinalSalesRep.QVD]
+(qvd);
+
+LOAD
+    "Ship To",
+    "Ship To Customer Address 1",
+    "Ship To Customer Address 2",
+    "Ship To Customer Address 3",
+    "Ship To Customer Address 4",
+    "Ship To Zip Code",
+    "Ship To City",
+    "Ship To County",
+    "Ship To State",
+    "Ship To Country",
+    "Ship To Zip Code Short"
+FROM [lib://Customer Good Sales Data2 (ip-0ab2a663_chuck)/Customer Good Sales DataFinalShipToAddress2.QVD]
+(qvd);
+
+LOAD
+    BudKey,
+    "YTD Budget Amount",
+    "TM Budget Amount"
+FROM [lib://Customer Good Sales Data2 (ip-0ab2a663_chuck)/Customer Good Sales DataFinalYTDBudget.QVD]
+(qvd);
+
+LOAD
+    "Zone Mgr Name",
+    "Zone Mgr"
+FROM [lib://Customer Good Sales Data2 (ip-0ab2a663_chuck)/Customer Good Sales DataFinalZone.QVD]
+(qvd);
+
+LOAD
+    Fiscal,
+    FiscalRank
+FROM [lib://Customer Good Sales Data2 (ip-0ab2a663_chuck)/Customer Good Sales DataFiscalRank.QVD]
+(qvd);
+
+LOAD
+    BasketItem,
+    "Order Number"
+FROM [lib://Customer Good Sales Data2 (ip-0ab2a663_chuck)/Customer Good Sales DatalinkBasket.QVD]
+(qvd);
+
+LOAD
+    maptype
+FROM [lib://Customer Good Sales Data2 (ip-0ab2a663_chuck)/Customer Good Sales Datamaptype.QVD]
+(qvd);
+
+LOAD
+    "Order Number",
+    OrderCount
+FROM [lib://Customer Good Sales Data2 (ip-0ab2a663_chuck)/Customer Good Sales DataOrderCount.QVD]
+(qvd);
+
+LOAD
+    "Order Date 2",
+    OrderYear,
+    OrderMonth,
+    OrderQuarter,
+    "Order Date Header"
+FROM [lib://Customer Good Sales Data2 (ip-0ab2a663_chuck)/Customer Good Sales DataOrderDates1.QVD]
+(qvd);
+
+LOAD
+    State,
+    state_abbr,
+    state_name
+FROM [lib://Customer Good Sales Data2 (ip-0ab2a663_chuck)/Customer Good Sales DataProvince.QVD]
+(qvd);
+
+LOAD
+    NoOfItem,
+    MaxNoOfItem,
+    DateKey,
+    "Order Number",
+    "Item-Branch Key"
+FROM [lib://Customer Good Sales Data2 (ip-0ab2a663_chuck)/Customer Good Sales DataSales.QVD]
+(qvd);
+
+LOAD
+    "Sales by Customer by YearQuarter",
+    Low,
+    High
+FROM [lib://Customer Good Sales Data2 (ip-0ab2a663_chuck)/Customer Good Sales DataSalesdecile-1.QVD]
+(qvd);
+
+LOAD
+    "Address Number",
+    BudKey,
+    AggKey,
+    "Ship To",
+    "Sales Rep",
+    "Item Class",
+    CustKey,
+    "Family Class",
+    "Sales Amount Based on List Price",
+//     "Line Desc 1",
+    "Invoice Number",
+    "Backlog Amount",
+    "Sales Quantity",
+    "Qty Backordered",
+    "Actual Delivery Date",
+    "Last Status",
+    "Number Of Days Late",
+    "Doc Type",
+    "Order Status Primary",
+    "Order Status",
+    "Line Number",
+    "Item Number",
+    Applymap('Item Map', "Item Number") as [Line Desc 1],
+    "Line Type",
+    "List Price",
+    "Sales Cost Amount",
+    "Order Margin",
+    "Open Order Cost Amount",
+    "Discount Amount",
+    "Invoice Date",
+    "Company Number Detail",
+    "Payment Terms",
+    "Sales Unit Cost Price",
+    "Open Order Quantity",
+    "Unit Price",
+    "Business Unit Details",
+    "Next Status",
+    "Promised Delivery Date",
+    "Sales Margin Amount",
+    "U/M",
+    "Parent Address Number",
+    "Open Order Amount",
+    "Sales Amount",
+    "BackOrder Amount",
+    "Sales Price",
+    "Address Order Number",
+    "Late Shipment",
+    "Order Type Detail",
+    Shipments,
+    DateKey,
+    "Order Number",
+    "Item-Branch Key"
+FROM [lib://Customer Good Sales Data2 (ip-0ab2a663_chuck)/Customer Good Sales DataSalesDetails.QVD]
+(qvd);
+
+LOAD
+    "Ship To State",
+    "Ship To X",
+    "Ship To Y"
+FROM [lib://Customer Good Sales Data2 (ip-0ab2a663_chuck)/Customer Good Sales DataShipToMapCoordinates.QVD]
+(qvd);
+
+
+LOAD *, GeoMakePoint(latitude, longitude) as QlikPoint;
+LOAD
+    "Ship To Zip Code Short",
+    latitude,
+    longitude
+FROM [lib://Customer Good Sales Data2 (ip-0ab2a663_chuck)/Customer Good Sales DataZipData.QVD]
+(qvd);

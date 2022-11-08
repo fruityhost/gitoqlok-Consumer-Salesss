@@ -1,0 +1,21 @@
+{
+  "qInfo": {
+    "qId": "34309143-5faf-461d-814d-cb219c38da07",
+    "qType": "dimension"
+  },
+  "qDim": {
+    "qGrouping": "N",
+    "qFieldDefs": [
+      "Line Desc 1"
+    ],
+    "qFieldLabels": [
+      "Product"
+    ],
+    "title": "Product"
+  },
+  "qMetaDef": {
+    "title": "Product",
+    "description": "",
+    "tags": []
+  }
+}

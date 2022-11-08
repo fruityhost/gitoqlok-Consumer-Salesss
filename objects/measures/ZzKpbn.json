@@ -1,0 +1,23 @@
+{
+  "qInfo": {
+    "qId": "ZzKpbn",
+    "qType": "measure"
+  },
+  "qMeasure": {
+    "qLabel": "Southern Margin %",
+    "qDef": "Sum({$ <[Region Name]={\"Southern\"}> }[Sales Margin Amount])/Sum({$ <[Region Name]={\"Southern\"}> }[Sales Amount])",
+    "qGrouping": "N",
+    "qExpressions": [],
+    "qActiveExpression": 0,
+    "qNumFormat": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    }
+  },
+  "qMetaDef": {
+    "title": "Southern Margin %",
+    "description": "",
+    "tags": []
+  }
+}

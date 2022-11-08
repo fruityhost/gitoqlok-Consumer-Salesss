@@ -1,0 +1,23 @@
+{
+  "qInfo": {
+    "qId": "xsAAezG",
+    "qType": "measure"
+  },
+  "qMeasure": {
+    "qLabel": "Order Count Total",
+    "qDef": "Count({$<[Line Desc 1]={\"*\"}>}distinct [Order Number])",
+    "qGrouping": "N",
+    "qExpressions": [],
+    "qActiveExpression": 0,
+    "qNumFormat": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    }
+  },
+  "qMetaDef": {
+    "title": "Order Count Total",
+    "description": "",
+    "tags": []
+  }
+}

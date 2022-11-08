@@ -1,0 +1,21 @@
+{
+  "qInfo": {
+    "qId": "3ce675bf-3718-42ac-bfe2-86dfadb0c96d",
+    "qType": "dimension"
+  },
+  "qDim": {
+    "qGrouping": "N",
+    "qFieldDefs": [
+      "YearMonth"
+    ],
+    "qFieldLabels": [
+      "YearMonth"
+    ],
+    "title": "YearMonth"
+  },
+  "qMetaDef": {
+    "title": "YearMonth",
+    "description": "",
+    "tags": []
+  }
+}

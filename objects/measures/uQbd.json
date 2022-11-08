@@ -1,0 +1,23 @@
+{
+  "qInfo": {
+    "qId": "uQbd",
+    "qType": "measure"
+  },
+  "qMeasure": {
+    "qLabel": "Actual Amount",
+    "qDef": "Sum ([Actual Amount])",
+    "qGrouping": "N",
+    "qExpressions": [],
+    "qActiveExpression": 0,
+    "qNumFormat": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    }
+  },
+  "qMetaDef": {
+    "title": "Actual Amount",
+    "description": "",
+    "tags": []
+  }
+}

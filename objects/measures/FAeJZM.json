@@ -1,0 +1,23 @@
+{
+  "qInfo": {
+    "qId": "FAeJZM",
+    "qType": "measure"
+  },
+  "qMeasure": {
+    "qLabel": "Sales $",
+    "qDef": "Sum ([Sales Amount])",
+    "qGrouping": "N",
+    "qExpressions": [],
+    "qActiveExpression": 0,
+    "qNumFormat": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    }
+  },
+  "qMetaDef": {
+    "title": "Sales $",
+    "description": "",
+    "tags": []
+  }
+}

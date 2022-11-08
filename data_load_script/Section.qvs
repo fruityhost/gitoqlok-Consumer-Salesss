@@ -1,0 +1,43 @@
+///$tab Section
+LOAD
+    BasketItem,
+    "Basket Produce Line",
+    "Basket Product Group Desc",
+    "Basket Product Line Desc",
+    "Basket Product Sub Group Desc",
+    "Basket Product Type Desc",
+    "Basket Item Desc"
+FROM [lib://Customer Good Sales Data2 (ip-0ab2a663_chuck)/Customer Good Sales DataBasket.QVD]
+(qvd);
+
+LOAD
+    DummyField,
+    BudgetInput2,
+    BudgetYear,
+    BudgetPeriod,
+    Type,
+    "Budget Amount",
+    "Actual Amount",
+    BudKey,
+    BudgetInput
+FROM [lib://Customer Good Sales Data2 (ip-0ab2a663_chuck)/Customer Good Sales DataBudget3.QVD]
+(qvd);
+
+LOAD
+    BudgetPeriod,
+    textBudgetPeriod
+FROM [lib://Customer Good Sales Data2 (ip-0ab2a663_chuck)/Customer Good Sales DataBudgetPeriod.QVD]
+(qvd);
+
+LOAD
+    CustKey,
+    Cust_Increasing,
+    Cust_Decreasing,
+    Cust_Steady,
+    Cust_New,
+    Cust_Lost,
+    Cust_Other,
+    "Customer Growth",
+    "Customer Growth Percent"
+FROM [lib://Customer Good Sales Data2 (ip-0ab2a663_chuck)/Customer Good Sales DataCustomerClassification.QVD]
+(qvd);

@@ -1,0 +1,23 @@
+{
+  "qInfo": {
+    "qId": "EFNGf",
+    "qType": "measure"
+  },
+  "qMeasure": {
+    "qLabel": "GP%",
+    "qDef": "if(Sum([Sales Margin Amount])/Sum([Sales Amount]) < 0,0,Sum([Sales Margin Amount])/Sum([Sales Amount]))",
+    "qGrouping": "N",
+    "qExpressions": [],
+    "qActiveExpression": 0,
+    "qNumFormat": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    }
+  },
+  "qMetaDef": {
+    "title": "GP%",
+    "description": "",
+    "tags": []
+  }
+}

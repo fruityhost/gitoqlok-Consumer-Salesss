@@ -1,0 +1,21 @@
+{
+  "qInfo": {
+    "qId": "5b7dbcd0-1948-42db-b5d5-3d4e6fb36bbf",
+    "qType": "dimension"
+  },
+  "qDim": {
+    "qGrouping": "N",
+    "qFieldDefs": [
+      "City"
+    ],
+    "qFieldLabels": [
+      "City"
+    ],
+    "title": "City"
+  },
+  "qMetaDef": {
+    "title": "City",
+    "description": "",
+    "tags": []
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "qInfo": {
+    "qId": "700c622d-693d-46dd-b538-426edd0175c2",
+    "qType": "dimension"
+  },
+  "qDim": {
+    "qGrouping": "N",
+    "qFieldDefs": [
+      "Year"
+    ],
+    "qFieldLabels": [
+      "Year"
+    ],
+    "title": "Year"
+  },
+  "qMetaDef": {
+    "title": "Year",
+    "description": "",
+    "tags": []
+  }
+}

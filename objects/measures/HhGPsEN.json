@@ -1,0 +1,23 @@
+{
+  "qInfo": {
+    "qId": "HhGPsEN",
+    "qType": "measure"
+  },
+  "qMeasure": {
+    "qLabel": "Margin % (Prev Selection)",
+    "qDef": "Sum({$2}[Sales Margin Amount])/Sum({$2}[Sales Amount])",
+    "qGrouping": "N",
+    "qExpressions": [],
+    "qActiveExpression": 0,
+    "qNumFormat": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    }
+  },
+  "qMetaDef": {
+    "title": "Margin % (Prev Selection)",
+    "description": "",
+    "tags": []
+  }
+}

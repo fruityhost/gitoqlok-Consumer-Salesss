@@ -1,0 +1,33 @@
+///$tab Main
+SET ThousandSep=',';
+SET DecimalSep='.';
+SET MoneyThousandSep=',';
+SET MoneyDecimalSep='.';
+SET MoneyFormat='$#,##0.00;($#,##0.00)';
+SET TimeFormat='h:mm:ss TT';
+SET DateFormat='M/D/YYYY';
+SET TimestampFormat='M/D/YYYY h:mm:ss[.fff] TT';
+SET MonthNames='Jan;Feb;Mar;Apr;May;Jun;Jul;Aug;Sep;Oct;Nov;Dec';
+SET DayNames='Mon;Tue;Wed;Thu;Fri;Sat;Sun';
+
+LOAD
+    Name as State,
+    Area
+FROM [lib://Customer Good Sales Data2 (ip-0ab2a663_chuck)/USStatesPoly.xlsx]
+(ooxml, embedded labels, table is Sheet1);
+
+ TAG FIELDS "Area" WITH $geopolygon;
+
+LOAD
+    Metric
+FROM [lib://Customer Good Sales Data2 (ip-0ab2a663_chuck)/Metrics.xlsx]
+(ooxml, embedded labels, table is Sheet1);
+
+
+[Item Map]:
+Mapping 
+LOAD
+    "Item Number",
+    "Line1 Desc"
+FROM [lib://Customer Good Sales Data2 (ip-0ab2a663_chuck)/Consumer Goods Items.xlsx]
+(ooxml, embedded labels, table is Sheet1);

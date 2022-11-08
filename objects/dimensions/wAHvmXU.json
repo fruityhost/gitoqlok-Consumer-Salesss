@@ -1,0 +1,21 @@
+{
+  "qInfo": {
+    "qId": "wAHvmXU",
+    "qType": "dimension"
+  },
+  "qDim": {
+    "qGrouping": "N",
+    "qFieldDefs": [
+      "Area"
+    ],
+    "qFieldLabels": [
+      "Area"
+    ],
+    "title": "Area"
+  },
+  "qMetaDef": {
+    "title": "Area",
+    "description": "",
+    "tags": []
+  }
+}

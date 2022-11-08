@@ -1,0 +1,21 @@
+{
+  "qInfo": {
+    "qId": "ebb29b50-eb4f-4b8e-9bd9-8a6e0cdc5bcc",
+    "qType": "dimension"
+  },
+  "qDim": {
+    "qGrouping": "N",
+    "qFieldDefs": [
+      "State"
+    ],
+    "qFieldLabels": [
+      "State"
+    ],
+    "title": "State"
+  },
+  "qMetaDef": {
+    "title": "State",
+    "description": "",
+    "tags": []
+  }
+}

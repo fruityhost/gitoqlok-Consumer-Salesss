@@ -1,0 +1,21 @@
+{
+  "qInfo": {
+    "qId": "05778c9f-aef0-4078-a577-4cfffd8ebfbe",
+    "qType": "dimension"
+  },
+  "qDim": {
+    "qGrouping": "N",
+    "qFieldDefs": [
+      "Customer"
+    ],
+    "qFieldLabels": [
+      "Customer"
+    ],
+    "title": "Customer"
+  },
+  "qMetaDef": {
+    "title": "Customer",
+    "description": "",
+    "tags": []
+  }
+}

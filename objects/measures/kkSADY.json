@@ -1,0 +1,23 @@
+{
+  "qInfo": {
+    "qId": "kkSADY",
+    "qType": "measure"
+  },
+  "qMeasure": {
+    "qLabel": "Sales Variance",
+    "qDef": "if((sum([YTD Sales Amount])-sum([LY YTD Sales Amount]))/sum([LY YTD Sales Amount])>-0.45, (sum([YTD Sales Amount])-sum([LY YTD Sales Amount]))/sum([LY YTD Sales Amount]), 0 )",
+    "qGrouping": "N",
+    "qExpressions": [],
+    "qActiveExpression": 0,
+    "qNumFormat": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    }
+  },
+  "qMetaDef": {
+    "title": "Sales Variance",
+    "description": "",
+    "tags": []
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "qTitle": "Consumer Sales",
+  "qThumbnail": {
+    "qUrl": "/api/v1/apps/20680a63-31ec-4de9-beaa-efaa4bb11bc0/media/files/consumer.png"
+  },
+  "description": "See through the eyes of a consumer goods company.  Analyze sales data by sales rep, by region, by product, etc.",
+  "dynamicColor": "hsla(74,18%,43%,1)",
+  "encrypted": true,
+  "id": "20680a63-31ec-4de9-beaa-efaa4bb11bc0",
+  "published": false,
+  "owner": "auth0|eab1593a0c6ddda3fa9f478dac9966bd5c8c5109390f7c3cdbaab6d8ca318df5",
+  "ownerId": "6304725bf86f3058e5b26838",
+  "_resourcetype": "app"
+}

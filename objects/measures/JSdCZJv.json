@@ -1,0 +1,23 @@
+{
+  "qInfo": {
+    "qId": "JSdCZJv",
+    "qType": "measure"
+  },
+  "qMeasure": {
+    "qLabel": "Total Shipments",
+    "qDef": "count(distinct Shipments)",
+    "qGrouping": "N",
+    "qExpressions": [],
+    "qActiveExpression": 0,
+    "qNumFormat": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    }
+  },
+  "qMetaDef": {
+    "title": "Total Shipments",
+    "description": "",
+    "tags": []
+  }
+}

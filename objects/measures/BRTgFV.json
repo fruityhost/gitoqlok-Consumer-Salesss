@@ -1,0 +1,23 @@
+{
+  "qInfo": {
+    "qId": "BRTgFV",
+    "qType": "measure"
+  },
+  "qMeasure": {
+    "qLabel": "LY Sales",
+    "qDef": "Sum({$<[Year]={\"2006\"}>}[Sales Amount])",
+    "qGrouping": "N",
+    "qExpressions": [],
+    "qActiveExpression": 0,
+    "qNumFormat": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    }
+  },
+  "qMetaDef": {
+    "title": "LY Sales",
+    "description": "",
+    "tags": []
+  }
+}

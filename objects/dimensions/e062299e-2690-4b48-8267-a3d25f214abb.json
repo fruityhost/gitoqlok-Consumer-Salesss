@@ -1,0 +1,21 @@
+{
+  "qInfo": {
+    "qId": "e062299e-2690-4b48-8267-a3d25f214abb",
+    "qType": "dimension"
+  },
+  "qDim": {
+    "qGrouping": "N",
+    "qFieldDefs": [
+      "Metric"
+    ],
+    "qFieldLabels": [
+      "Color by Metric"
+    ],
+    "title": "Color by Metric"
+  },
+  "qMetaDef": {
+    "title": "Color by Metric",
+    "description": "",
+    "tags": []
+  }
+}

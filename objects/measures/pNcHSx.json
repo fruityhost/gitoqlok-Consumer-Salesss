@@ -1,0 +1,23 @@
+{
+  "qInfo": {
+    "qId": "pNcHSx",
+    "qType": "measure"
+  },
+  "qMeasure": {
+    "qLabel": "Budget $",
+    "qDef": "Sum ([Budget Amount])",
+    "qGrouping": "N",
+    "qExpressions": [],
+    "qActiveExpression": 0,
+    "qNumFormat": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    }
+  },
+  "qMetaDef": {
+    "title": "Budget $",
+    "description": "",
+    "tags": []
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "qInfo": {
+    "qId": "EmXwes",
+    "qType": "measure"
+  },
+  "qMeasure": {
+    "qLabel": "Central Revenue",
+    "qDef": "Sum({$<[Region Name]={\"Central\"}>} [Sales Quantity]*[Sales Price])",
+    "qGrouping": "N",
+    "qExpressions": [],
+    "qActiveExpression": 0,
+    "qNumFormat": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    }
+  },
+  "qMetaDef": {
+    "title": "Central Revenue",
+    "description": "",
+    "tags": []
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "qInfo": {
+    "qId": "VSvJmYg",
+    "qType": "measure"
+  },
+  "qMeasure": {
+    "qLabel": "Southern Revenue",
+    "qDef": "Sum({$<[Region Name]={\"Southern\"}>}   [Sales Quantity]*[Sales Price])",
+    "qGrouping": "N",
+    "qExpressions": [],
+    "qActiveExpression": 0,
+    "qNumFormat": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    }
+  },
+  "qMetaDef": {
+    "title": "Southern Revenue",
+    "description": "",
+    "tags": []
+  }
+}

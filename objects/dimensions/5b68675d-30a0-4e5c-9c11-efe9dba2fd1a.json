@@ -1,0 +1,21 @@
+{
+  "qInfo": {
+    "qId": "5b68675d-30a0-4e5c-9c11-efe9dba2fd1a",
+    "qType": "dimension"
+  },
+  "qDim": {
+    "qGrouping": "N",
+    "qFieldDefs": [
+      "Regional Sales Mgr Name"
+    ],
+    "qFieldLabels": [
+      "Regional Sales Mgr"
+    ],
+    "title": "Regional Sales Mgr"
+  },
+  "qMetaDef": {
+    "title": "Regional Sales Mgr",
+    "description": "",
+    "tags": []
+  }
+}

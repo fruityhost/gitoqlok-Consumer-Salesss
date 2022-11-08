@@ -1,0 +1,23 @@
+{
+  "qInfo": {
+    "qId": "ZbrjxW",
+    "qType": "measure"
+  },
+  "qMeasure": {
+    "qLabel": "OnTime Shipments",
+    "qDef": "count(distinct If([Late Shipment] = 0 ,Shipments))",
+    "qGrouping": "N",
+    "qExpressions": [],
+    "qActiveExpression": 0,
+    "qNumFormat": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    }
+  },
+  "qMetaDef": {
+    "title": "OnTime Shipments",
+    "description": "",
+    "tags": []
+  }
+}

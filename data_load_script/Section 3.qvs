@@ -1,0 +1,57 @@
+///$tab Section 3
+LOAD
+    "Distribution Channel Mgr Name",
+    "Distribution Channel Mgr"
+FROM [lib://Customer Good Sales Data2 (ip-0ab2a663_chuck)/Customer Good Sales DataFinalDistribution.QVD]
+(qvd);
+
+LOAD
+    "Division Name",
+    Division
+FROM [lib://Customer Good Sales Data2 (ip-0ab2a663_chuck)/Customer Good Sales DataFinalDivision.QVD]
+(qvd);
+
+LOAD
+    "Family Class Desc",
+    "Family Class"
+FROM [lib://Customer Good Sales Data2 (ip-0ab2a663_chuck)/Customer Good Sales DataFinalFamilyClass.QVD]
+(qvd);
+
+LOAD
+    "Item Branch 3rd Item Number",
+    "Item Branch G/L Category",
+    "Short Name",
+    "Item Branch 2nd Item Number",
+    "Item-Branch Key",
+    "Item Branch Reorder Quantity",
+    Horsepower,
+    "Item Branch Category Code 6",
+    "Item Branch Category Code 7",
+    "Item Branch Primary Supplier"
+FROM [lib://Customer Good Sales Data2 (ip-0ab2a663_chuck)/Customer Good Sales DataFinalItemBranch.QVD]
+(qvd);
+
+LOAD
+    "Item Class Desc",
+    "Item Class"
+FROM [lib://Customer Good Sales Data2 (ip-0ab2a663_chuck)/Customer Good Sales DataFinalItemClass.QVD]
+(qvd);
+
+LOAD
+    "Short Name",
+    "Item Count",
+    "Product Price Group",
+    "Product Department",
+    "Product Line",
+    "Product Group",
+    "Product Type",
+    "Master Planning Family",
+    "Product Sub Group"
+FROM [lib://Customer Good Sales Data2 (ip-0ab2a663_chuck)/Customer Good Sales DataFinalItemMaster.QVD]
+(qvd);
+
+LOAD
+    "Master Planning Family Desc",
+    "Master Planning Family"
+FROM [lib://Customer Good Sales Data2 (ip-0ab2a663_chuck)/Customer Good Sales DataFinalMasterPlanning.QVD]
+(qvd);

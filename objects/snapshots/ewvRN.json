@@ -1,0 +1,413 @@
+{
+  "qInfo": {
+    "qId": "ewvRN",
+    "qType": "snapshot"
+  },
+  "qMetaDef": {
+    "title": "",
+    "description": ""
+  },
+  "sheetId": "GnAzpy",
+  "creationDate": "2016-01-05T20:59:38.922Z",
+  "qSelectionInfo": {},
+  "qHyperCube": {
+    "qSize": {
+      "qcx": 2,
+      "qcy": 8
+    },
+    "qDimensionInfo": [
+      {
+        "qFallbackTitle": "Sales Rep",
+        "qApprMaxGlyphCount": 16,
+        "qCardinal": 63,
+        "qSortIndicator": "A",
+        "qGroupFallbackTitles": [
+          "Sales Rep"
+        ],
+        "qGroupPos": 0,
+        "qStateCounts": {
+          "qLocked": 0,
+          "qSelected": 8,
+          "qOption": 0,
+          "qDeselected": 0,
+          "qAlternative": 53,
+          "qExcluded": 2,
+          "qSelectedExcluded": 0,
+          "qLockedExcluded": 0
+        },
+        "qTags": [
+          "$key",
+          "$ascii",
+          "$text"
+        ],
+        "qDimensionType": "D",
+        "qGrouping": "N",
+        "qNumFormat": {
+          "qType": "U",
+          "qnDec": 0,
+          "qUseThou": 0
+        },
+        "qIsAutoFormat": true,
+        "qGroupFieldDefs": [
+          "Sales Rep Name"
+        ],
+        "qMin": 0,
+        "qMax": 0,
+        "qAttrExprInfo": [],
+        "qAttrDimInfo": [],
+        "qCardinalities": {
+          "qCardinal": 0,
+          "qHypercubeCardinal": 0,
+          "qAllValuesCardinal": -1
+        },
+        "title": "Sales Rep",
+        "autoSort": true,
+        "cId": "mRrdzh",
+        "othersLabel": "Others",
+        "textAlign": {
+          "auto": true,
+          "align": "left"
+        }
+      }
+    ],
+    "qMeasureInfo": [
+      {
+        "qFallbackTitle": "Sales Variance",
+        "qApprMaxGlyphCount": 6,
+        "qCardinal": 0,
+        "qSortIndicator": "A",
+        "qNumFormat": {
+          "qType": "F",
+          "qnDec": 2,
+          "qUseThou": 0,
+          "qFmt": "0.0%",
+          "qDec": ".",
+          "qThou": ","
+        },
+        "qMin": -0.18822292323869597,
+        "qMax": 0,
+        "qAttrExprInfo": [
+          {
+            "qMin": 0,
+            "qMax": 0,
+            "qNumFormat": {
+              "qType": "U",
+              "qnDec": 10,
+              "qUseThou": 0
+            },
+            "id": "cellBackgroundColor"
+          },
+          {
+            "qMin": 0,
+            "qMax": 0,
+            "qNumFormat": {
+              "qType": "U",
+              "qnDec": 10,
+              "qUseThou": 0
+            },
+            "id": "cellForegroundColor"
+          }
+        ],
+        "qAttrDimInfo": [],
+        "qTrendLines": [],
+        "autoSort": false,
+        "cId": "CgpF",
+        "numFormatFromTemplate": true,
+        "textAlign": {
+          "auto": true,
+          "align": "left"
+        }
+      }
+    ],
+    "qEffectiveInterColumnSortOrder": [
+      1,
+      0
+    ],
+    "qGrandTotalRow": [
+      {
+        "qText": "-18.2%",
+        "qNum": -0.18173908719717896,
+        "qElemNumber": -1,
+        "qState": "X",
+        "qIsTotalCell": true
+      }
+    ],
+    "qDataPages": [
+      {
+        "qMatrix": [
+          [
+            {
+              "qText": "Ken Roberts",
+              "qNum": "NaN",
+              "qElemNumber": 28,
+              "qState": "S"
+            }
+          ],
+          [
+            {
+              "qText": "Ronald Milam",
+              "qNum": "NaN",
+              "qElemNumber": 37,
+              "qState": "S"
+            }
+          ],
+          [
+            {
+              "qText": "Judy Thurman",
+              "qNum": "NaN",
+              "qElemNumber": 4,
+              "qState": "S"
+            }
+          ],
+          [
+            {
+              "qText": "Brenda Gibson",
+              "qNum": "NaN",
+              "qElemNumber": 47,
+              "qState": "S"
+            }
+          ],
+          [
+            {
+              "qText": "Cary Frank",
+              "qNum": "NaN",
+              "qElemNumber": 33,
+              "qState": "S"
+            }
+          ],
+          [
+            {
+              "qText": "Craig Amundson",
+              "qNum": "NaN",
+              "qElemNumber": 52,
+              "qState": "S"
+            }
+          ],
+          [
+            {
+              "qText": "Janice Scott",
+              "qNum": "NaN",
+              "qElemNumber": 50,
+              "qState": "S"
+            }
+          ],
+          [
+            {
+              "qText": "John Davis",
+              "qNum": "NaN",
+              "qElemNumber": 40,
+              "qState": "S"
+            }
+          ]
+        ],
+        "qTails": [],
+        "qArea": {
+          "qLeft": 0,
+          "qTop": 0,
+          "qWidth": 1,
+          "qHeight": 8
+        }
+      },
+      {
+        "qMatrix": [
+          [
+            {
+              "qText": "-18.8%",
+              "qNum": -0.18822292323869597,
+              "qElemNumber": 0,
+              "qState": "L",
+              "qAttrExps": {
+                "qValues": [
+                  {
+                    "qNum": "NaN"
+                  },
+                  {
+                    "qNum": "NaN"
+                  }
+                ]
+              }
+            }
+          ],
+          [
+            {
+              "qText": "-11.8%",
+              "qNum": -0.11842540522659616,
+              "qElemNumber": 0,
+              "qState": "L",
+              "qAttrExps": {
+                "qValues": [
+                  {
+                    "qNum": "NaN"
+                  },
+                  {
+                    "qNum": "NaN"
+                  }
+                ]
+              }
+            }
+          ],
+          [
+            {
+              "qText": "-9.0%",
+              "qNum": -0.09011219408924362,
+              "qElemNumber": 0,
+              "qState": "L",
+              "qAttrExps": {
+                "qValues": [
+                  {
+                    "qNum": "NaN"
+                  },
+                  {
+                    "qNum": "NaN"
+                  }
+                ]
+              }
+            }
+          ],
+          [
+            {
+              "qText": "0.0%",
+              "qNum": 0,
+              "qElemNumber": 0,
+              "qState": "L",
+              "qAttrExps": {
+                "qValues": [
+                  {
+                    "qNum": "NaN"
+                  },
+                  {
+                    "qNum": "NaN"
+                  }
+                ]
+              }
+            }
+          ],
+          [
+            {
+              "qText": "0.0%",
+              "qNum": 0,
+              "qElemNumber": 0,
+              "qState": "L",
+              "qAttrExps": {
+                "qValues": [
+                  {
+                    "qNum": "NaN"
+                  },
+                  {
+                    "qNum": "NaN"
+                  }
+                ]
+              }
+            }
+          ],
+          [
+            {
+              "qText": "0.0%",
+              "qNum": 0,
+              "qElemNumber": 0,
+              "qState": "L",
+              "qAttrExps": {
+                "qValues": [
+                  {
+                    "qNum": "NaN"
+                  },
+                  {
+                    "qNum": "NaN"
+                  }
+                ]
+              }
+            }
+          ],
+          [
+            {
+              "qText": "0.0%",
+              "qNum": 0,
+              "qElemNumber": 0,
+              "qState": "L",
+              "qAttrExps": {
+                "qValues": [
+                  {
+                    "qNum": "NaN"
+                  },
+                  {
+                    "qNum": "NaN"
+                  }
+                ]
+              }
+            }
+          ],
+          [
+            {
+              "qText": "0.0%",
+              "qNum": 0,
+              "qElemNumber": 0,
+              "qState": "L",
+              "qAttrExps": {
+                "qValues": [
+                  {
+                    "qNum": "NaN"
+                  },
+                  {
+                    "qNum": "NaN"
+                  }
+                ]
+              }
+            }
+          ]
+        ],
+        "qTails": [],
+        "qArea": {
+          "qLeft": 1,
+          "qTop": 0,
+          "qWidth": 1,
+          "qHeight": 8
+        }
+      }
+    ],
+    "qPivotDataPages": [],
+    "qStackedDataPages": [],
+    "qMode": "S",
+    "qNoOfLeftDims": -1,
+    "qTreeNodesOnDim": [],
+    "qColumnOrder": [],
+    "customErrorMessage": {
+      "calcCond": ""
+    },
+    "columnOrder": [
+      0,
+      1
+    ],
+    "columnWidths": [
+      -1,
+      -1
+    ]
+  },
+  "showTitles": true,
+  "title": "",
+  "subtitle": "",
+  "footnote": "",
+  "totals": {
+    "show": true,
+    "position": "noTotals",
+    "label": "Totals"
+  },
+  "visualization": "table",
+  "snapshotData": {
+    "object": {
+      "size": {
+        "w": 860,
+        "h": 278
+      },
+      "dataTableRowCount": 8,
+      "dataTableHeight": 208.65625
+    },
+    "parent": {
+      "h": 894,
+      "w": 1910
+    }
+  },
+  "visualizationType": "table",
+  "sourceObjectId": "EpsDdJ",
+  "timestamp": 1452027578873,
+  "isClone": false
+}

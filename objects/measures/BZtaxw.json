@@ -1,0 +1,23 @@
+{
+  "qInfo": {
+    "qId": "BZtaxw",
+    "qType": "measure"
+  },
+  "qMeasure": {
+    "qLabel": "Avg Sales (Prev Sel)",
+    "qDef": "Avg( {$2} [Sales Amount])",
+    "qGrouping": "N",
+    "qExpressions": [],
+    "qActiveExpression": 0,
+    "qNumFormat": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    }
+  },
+  "qMetaDef": {
+    "title": "Avg Sales (Prev Sel)",
+    "description": "",
+    "tags": []
+  }
+}

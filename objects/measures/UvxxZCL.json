@@ -1,0 +1,23 @@
+{
+  "qInfo": {
+    "qId": "UvxxZCL",
+    "qType": "measure"
+  },
+  "qMeasure": {
+    "qLabel": "Revenue (Prev Sel)",
+    "qDef": "Sum({$2} [Sales Quantity]*[Sales Price])",
+    "qGrouping": "N",
+    "qExpressions": [],
+    "qActiveExpression": 0,
+    "qNumFormat": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    }
+  },
+  "qMetaDef": {
+    "title": "Revenue (Prev Sel)",
+    "description": "",
+    "tags": []
+  }
+}

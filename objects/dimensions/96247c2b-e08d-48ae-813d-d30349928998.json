@@ -1,0 +1,21 @@
+{
+  "qInfo": {
+    "qId": "96247c2b-e08d-48ae-813d-d30349928998",
+    "qType": "dimension"
+  },
+  "qDim": {
+    "qGrouping": "N",
+    "qFieldDefs": [
+      "Product Group Desc"
+    ],
+    "qFieldLabels": [
+      "Product Group"
+    ],
+    "title": "Product Group"
+  },
+  "qMetaDef": {
+    "title": "Product Group",
+    "description": "",
+    "tags": []
+  }
+}

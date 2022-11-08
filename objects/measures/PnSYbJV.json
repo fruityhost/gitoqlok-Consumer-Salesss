@@ -1,0 +1,23 @@
+{
+  "qInfo": {
+    "qId": "PnSYbJV",
+    "qType": "measure"
+  },
+  "qMeasure": {
+    "qLabel": "Customer Count",
+    "qDef": "Count(distinct Customer)",
+    "qGrouping": "N",
+    "qExpressions": [],
+    "qActiveExpression": 0,
+    "qNumFormat": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    }
+  },
+  "qMetaDef": {
+    "title": "Customer Count",
+    "description": "",
+    "tags": []
+  }
+}

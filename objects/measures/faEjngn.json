@@ -1,0 +1,23 @@
+{
+  "qInfo": {
+    "qId": "faEjngn",
+    "qType": "measure"
+  },
+  "qMeasure": {
+    "qLabel": "TY Sales",
+    "qDef": "Sum({$<[Year]={\"2007\"}>}[Sales Amount])",
+    "qGrouping": "N",
+    "qExpressions": [],
+    "qActiveExpression": 0,
+    "qNumFormat": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    }
+  },
+  "qMetaDef": {
+    "title": "TY Sales",
+    "description": "",
+    "tags": []
+  }
+}

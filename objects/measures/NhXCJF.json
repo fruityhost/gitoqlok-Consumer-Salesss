@@ -1,0 +1,23 @@
+{
+  "qInfo": {
+    "qId": "NhXCJF",
+    "qType": "measure"
+  },
+  "qMeasure": {
+    "qLabel": "Order Count",
+    "qDef": "Count(distinct [Order Number])",
+    "qGrouping": "N",
+    "qExpressions": [],
+    "qActiveExpression": 0,
+    "qNumFormat": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    }
+  },
+  "qMetaDef": {
+    "title": "Order Count",
+    "description": "",
+    "tags": []
+  }
+}

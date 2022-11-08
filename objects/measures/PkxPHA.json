@@ -1,0 +1,23 @@
+{
+  "qInfo": {
+    "qId": "PkxPHA",
+    "qType": "measure"
+  },
+  "qMeasure": {
+    "qLabel": "New Customer Count",
+    "qDef": "Count({$<Cust_New={\"1\"}>} distinct Customer)",
+    "qGrouping": "N",
+    "qExpressions": [],
+    "qActiveExpression": 0,
+    "qNumFormat": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    }
+  },
+  "qMetaDef": {
+    "title": "New Customer Count",
+    "description": "",
+    "tags": []
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "qInfo": {
+    "qId": "sRRvWf",
+    "qType": "measure"
+  },
+  "qMeasure": {
+    "qLabel": "Inventory",
+    "qDef": "Sum (Inventory)",
+    "qGrouping": "N",
+    "qExpressions": [],
+    "qActiveExpression": 0,
+    "qNumFormat": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    }
+  },
+  "qMetaDef": {
+    "title": "Inventory",
+    "description": "",
+    "tags": []
+  }
+}

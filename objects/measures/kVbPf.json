@@ -1,0 +1,23 @@
+{
+  "qInfo": {
+    "qId": "kVbPf",
+    "qType": "measure"
+  },
+  "qMeasure": {
+    "qLabel": "Avg Lead Time",
+    "qDef": "Avg([Lead Time])",
+    "qGrouping": "N",
+    "qExpressions": [],
+    "qActiveExpression": 0,
+    "qNumFormat": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    }
+  },
+  "qMetaDef": {
+    "title": "Avg Lead Time",
+    "description": "",
+    "tags": []
+  }
+}

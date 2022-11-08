@@ -1,0 +1,95 @@
+///$tab Section 2
+LOAD
+    State,
+    "Customer X",
+    "Customer Y"
+FROM [lib://Customer Good Sales Data2 (ip-0ab2a663_chuck)/Customer Good Sales DataCustomerMapCoordinates.QVD]
+(qvd);
+
+LOAD
+    DateKey,
+    "Day",
+    "Month",
+    Quarter,
+    "Week",
+    "Week Ending Date",
+    "Weekday",
+    "Year",
+    YearMonth
+FROM [lib://Customer Good Sales Data2 (ip-0ab2a663_chuck)/Customer Good Sales DataDates2.QVD]
+(qvd);
+
+LOAD
+    AggKey,
+    "YTD Sales Amount",
+    "LY YTD Sales Amount",
+    "TM Sales Amount",
+    "LY TM Sales Amount",
+    "LY Tot Sales Amount",
+    "YTD Sales Margin Amount",
+    "LY YTD Sales Margin Amount",
+    "TM Sales Margin Amount",
+    "LY TM Sales Margin Amount",
+    "LY Tot Sales Margin Amount",
+    "Current Open Amount",
+    "Current BackOrder Amount",
+    "Current Backlog Amount"
+FROM [lib://Customer Good Sales Data2 (ip-0ab2a663_chuck)/Customer Good Sales DataFinalAggSales.QVD]
+(qvd);
+
+LOAD
+    "Business Family Name",
+    "Business Family"
+FROM [lib://Customer Good Sales Data2 (ip-0ab2a663_chuck)/Customer Good Sales DataFinalBusinessFamily.QVD]
+(qvd);
+
+LOAD
+    "Channel Name",
+    Channel
+FROM [lib://Customer Good Sales Data2 (ip-0ab2a663_chuck)/Customer Good Sales DataFinalChannel.QVD]
+(qvd);
+
+LOAD
+    "Address Number",
+    "Customer Address 1",
+    "Customer Address 2",
+    "Customer Address 3",
+    "Customer Address 4",
+    "Zip Code",
+    City,
+    County,
+    State,
+    Country
+FROM [lib://Customer Good Sales Data2 (ip-0ab2a663_chuck)/Customer Good Sales DataFinalCustomerAddress.QVD]
+(qvd);
+
+LOAD
+    Division,
+    "Business Family",
+    "Customer Type",
+    Channel,
+    "Category Code 5",
+    "Zone Mgr",
+    "Category Code 7",
+    "Regional Sales Mgr",
+    "Distribution Channel Mgr",
+    "Region Code",
+    "Price Discount Cde 4",
+    "Line of Business",
+    "Sales Volume",
+    Customer,
+    "Address Number",
+    "Customer Number",
+    Consolidated,
+    "Search Type",
+    Phone,
+    "Business Unit",
+    "SIC Code",
+    "Tax Certificate"
+FROM [lib://Customer Good Sales Data2 (ip-0ab2a663_chuck)/Customer Good Sales DataFinalCustomers.QVD]
+(qvd);
+LOAD
+    "Customer Type Name",
+    "Customer Type"
+FROM [lib://Customer Good Sales Data2 (ip-0ab2a663_chuck)/Customer Good Sales DataFinalCustomerType.QVD]
+(qvd);

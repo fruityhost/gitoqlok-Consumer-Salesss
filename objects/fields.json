@@ -1,0 +1,2133 @@
+[
+  {
+    "qName": "Actual Amount",
+    "qTags": [
+      "$numeric"
+    ],
+    "qSrcTables": [
+      "Customer Good Sales DataBudget3"
+    ]
+  },
+  {
+    "qName": "Actual Delivery Date",
+    "qTags": [
+      "$numeric",
+      "$integer",
+      "$timestamp",
+      "$date"
+    ],
+    "qSrcTables": [
+      "Customer Good Sales DataSalesDetails"
+    ]
+  },
+  {
+    "qName": "Address Number",
+    "qTags": [
+      "$key",
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Customer Good Sales DataFinalCustomerAddress",
+      "Customer Good Sales DataFinalCustomers",
+      "Customer Good Sales DataSalesDetails"
+    ]
+  },
+  {
+    "qName": "Address Number Header",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Customer Good Sales DataFinalSalesHeader"
+    ]
+  },
+  {
+    "qName": "Address Order Number",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Customer Good Sales DataSalesDetails"
+    ]
+  },
+  {
+    "qName": "AggKey",
+    "qTags": [
+      "$key",
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Customer Good Sales DataFinalAggSales",
+      "Customer Good Sales DataSalesDetails"
+    ]
+  },
+  {
+    "qName": "Area",
+    "qTags": [
+      "$ascii",
+      "$text",
+      "$geopolygon"
+    ],
+    "qSrcTables": [
+      "Sheet1"
+    ]
+  },
+  {
+    "qName": "BackOrder Amount",
+    "qTags": [
+      "$numeric"
+    ],
+    "qSrcTables": [
+      "Customer Good Sales DataSalesDetails"
+    ]
+  },
+  {
+    "qName": "Backlog Amount",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Customer Good Sales DataSalesDetails"
+    ]
+  },
+  {
+    "qName": "Basket Item Desc",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Item Map"
+    ]
+  },
+  {
+    "qName": "Basket Produce Line",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Item Map"
+    ]
+  },
+  {
+    "qName": "Basket Product Group Desc",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Item Map"
+    ]
+  },
+  {
+    "qName": "Basket Product Line Desc",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Item Map"
+    ]
+  },
+  {
+    "qName": "Basket Product Sub Group Desc",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Item Map"
+    ]
+  },
+  {
+    "qName": "Basket Product Type Desc",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Item Map"
+    ]
+  },
+  {
+    "qName": "BasketItem",
+    "qTags": [
+      "$key",
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Item Map",
+      "Customer Good Sales DatalinkBasket"
+    ]
+  },
+  {
+    "qName": "BudKey",
+    "qTags": [
+      "$key",
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Customer Good Sales DataBudget3",
+      "Customer Good Sales DataFinalYTDBudget",
+      "Customer Good Sales DataSalesDetails"
+    ]
+  },
+  {
+    "qName": "Budget Amount",
+    "qTags": [
+      "$numeric"
+    ],
+    "qSrcTables": [
+      "Customer Good Sales DataBudget3"
+    ]
+  },
+  {
+    "qName": "BudgetInput",
+    "qTags": [
+      "$numeric"
+    ],
+    "qSrcTables": [
+      "Customer Good Sales DataBudget3"
+    ]
+  },
+  {
+    "qName": "BudgetInput2",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Customer Good Sales DataBudget3"
+    ]
+  },
+  {
+    "qName": "BudgetPeriod",
+    "qTags": [
+      "$key",
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Customer Good Sales DataBudget3",
+      "Customer Good Sales DataBudgetPeriod"
+    ]
+  },
+  {
+    "qName": "BudgetYear",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Customer Good Sales DataBudget3"
+    ]
+  },
+  {
+    "qName": "Business Family",
+    "qTags": [
+      "$key",
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Customer Good Sales DataFinalBusinessFamily",
+      "Customer Good Sales DataFinalCustomers"
+    ]
+  },
+  {
+    "qName": "Business Family Name",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Customer Good Sales DataFinalBusinessFamily"
+    ]
+  },
+  {
+    "qName": "Business Unit",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Customer Good Sales DataFinalCustomers"
+    ]
+  },
+  {
+    "qName": "Business Unit Details",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Customer Good Sales DataSalesDetails"
+    ]
+  },
+  {
+    "qName": "Business Unit Order Header",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Customer Good Sales DataFinalSalesHeader"
+    ]
+  },
+  {
+    "qName": "Category Code 5",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Customer Good Sales DataFinalCustomers"
+    ]
+  },
+  {
+    "qName": "Category Code 7",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Customer Good Sales DataFinalCustomers"
+    ]
+  },
+  {
+    "qName": "Channel",
+    "qTags": [
+      "$key",
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Customer Good Sales DataFinalChannel",
+      "Customer Good Sales DataFinalCustomers"
+    ]
+  },
+  {
+    "qName": "Channel Name",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Customer Good Sales DataFinalChannel"
+    ]
+  },
+  {
+    "qName": "City",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Customer Good Sales DataFinalCustomerAddress"
+    ]
+  },
+  {
+    "qName": "Company Number Detail",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Customer Good Sales DataSalesDetails"
+    ]
+  },
+  {
+    "qName": "Company Number Header",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Customer Good Sales DataFinalSalesHeader"
+    ]
+  },
+  {
+    "qName": "Consolidated",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Customer Good Sales DataFinalCustomers"
+    ]
+  },
+  {
+    "qName": "Country",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Customer Good Sales DataFinalCustomerAddress"
+    ]
+  },
+  {
+    "qName": "County",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Customer Good Sales DataFinalCustomerAddress"
+    ]
+  },
+  {
+    "qName": "Current BackOrder Amount",
+    "qTags": [
+      "$numeric"
+    ],
+    "qSrcTables": [
+      "Customer Good Sales DataFinalAggSales"
+    ]
+  },
+  {
+    "qName": "Current Backlog Amount",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Customer Good Sales DataFinalAggSales"
+    ]
+  },
+  {
+    "qName": "Current Open Amount",
+    "qTags": [
+      "$numeric"
+    ],
+    "qSrcTables": [
+      "Customer Good Sales DataFinalAggSales"
+    ]
+  },
+  {
+    "qName": "CustKey",
+    "qTags": [
+      "$key",
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Customer Good Sales DataCustomerClassification",
+      "Customer Good Sales DataSalesDetails"
+    ]
+  },
+  {
+    "qName": "Cust_Decreasing",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Customer Good Sales DataCustomerClassification"
+    ]
+  },
+  {
+    "qName": "Cust_Increasing",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Customer Good Sales DataCustomerClassification"
+    ]
+  },
+  {
+    "qName": "Cust_Lost",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Customer Good Sales DataCustomerClassification"
+    ]
+  },
+  {
+    "qName": "Cust_New",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Customer Good Sales DataCustomerClassification"
+    ]
+  },
+  {
+    "qName": "Cust_Other",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Customer Good Sales DataCustomerClassification"
+    ]
+  },
+  {
+    "qName": "Cust_Steady",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Customer Good Sales DataCustomerClassification"
+    ]
+  },
+  {
+    "qName": "Customer",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Customer Good Sales DataFinalCustomers"
+    ]
+  },
+  {
+    "qName": "Customer Address 1",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Customer Good Sales DataFinalCustomerAddress"
+    ]
+  },
+  {
+    "qName": "Customer Address 2",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Customer Good Sales DataFinalCustomerAddress"
+    ]
+  },
+  {
+    "qName": "Customer Address 3",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Customer Good Sales DataFinalCustomerAddress"
+    ]
+  },
+  {
+    "qName": "Customer Address 4",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Customer Good Sales DataFinalCustomerAddress"
+    ]
+  },
+  {
+    "qName": "Customer Growth",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Customer Good Sales DataCustomerClassification"
+    ]
+  },
+  {
+    "qName": "Customer Growth Percent",
+    "qTags": [
+      "$numeric"
+    ],
+    "qSrcTables": [
+      "Customer Good Sales DataCustomerClassification"
+    ]
+  },
+  {
+    "qName": "Customer Number",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Customer Good Sales DataFinalCustomers"
+    ]
+  },
+  {
+    "qName": "Customer Type",
+    "qTags": [
+      "$key",
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Customer Good Sales DataFinalCustomers",
+      "Customer Good Sales DataFinalCustomerType"
+    ]
+  },
+  {
+    "qName": "Customer Type Name",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Customer Good Sales DataFinalCustomerType"
+    ]
+  },
+  {
+    "qName": "Customer X",
+    "qTags": [
+      "$numeric"
+    ],
+    "qSrcTables": [
+      "Customer Good Sales DataCustomerMapCoordinates"
+    ]
+  },
+  {
+    "qName": "Customer Y",
+    "qTags": [
+      "$numeric"
+    ],
+    "qSrcTables": [
+      "Customer Good Sales DataCustomerMapCoordinates"
+    ]
+  },
+  {
+    "qName": "DateKey",
+    "qTags": [
+      "$key",
+      "$numeric",
+      "$integer",
+      "$timestamp",
+      "$date"
+    ],
+    "qSrcTables": [
+      "Customer Good Sales DataDates2",
+      "Customer Good Sales DataSales",
+      "Customer Good Sales DataSalesDetails"
+    ]
+  },
+  {
+    "qName": "Day",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Customer Good Sales DataDates2"
+    ]
+  },
+  {
+    "qName": "Discount Amount",
+    "qTags": [
+      "$numeric"
+    ],
+    "qSrcTables": [
+      "Customer Good Sales DataSalesDetails"
+    ]
+  },
+  {
+    "qName": "Distribution Channel Mgr",
+    "qTags": [
+      "$key",
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Customer Good Sales DataFinalCustomers",
+      "Customer Good Sales DataFinalDistribution"
+    ]
+  },
+  {
+    "qName": "Distribution Channel Mgr Name",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Customer Good Sales DataFinalDistribution"
+    ]
+  },
+  {
+    "qName": "Division",
+    "qTags": [
+      "$key",
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Customer Good Sales DataFinalCustomers",
+      "Customer Good Sales DataFinalDivision"
+    ]
+  },
+  {
+    "qName": "Division Name",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Customer Good Sales DataFinalDivision"
+    ]
+  },
+  {
+    "qName": "Doc Type",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Customer Good Sales DataSalesDetails"
+    ]
+  },
+  {
+    "qName": "DummyField",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Customer Good Sales DataBudget3"
+    ]
+  },
+  {
+    "qName": "Family Class",
+    "qTags": [
+      "$key",
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Customer Good Sales DataFinalFamilyClass",
+      "Customer Good Sales DataSalesDetails"
+    ]
+  },
+  {
+    "qName": "Family Class Desc",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Customer Good Sales DataFinalFamilyClass"
+    ]
+  },
+  {
+    "qName": "Fiscal",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Customer Good Sales DataFiscalRank"
+    ]
+  },
+  {
+    "qName": "FiscalRank",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Customer Good Sales DataFiscalRank"
+    ]
+  },
+  {
+    "qName": "Freight Code Header",
+    "qTags": [],
+    "qSrcTables": [
+      "Customer Good Sales DataFinalSalesHeader"
+    ]
+  },
+  {
+    "qName": "High",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Customer Good Sales DataSalesdecile-1"
+    ]
+  },
+  {
+    "qName": "Hold Code Header",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Customer Good Sales DataFinalSalesHeader"
+    ]
+  },
+  {
+    "qName": "Hold Orders Code Header",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Customer Good Sales DataFinalSalesHeader"
+    ]
+  },
+  {
+    "qName": "Horsepower",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Customer Good Sales DataFinalItemBranch"
+    ]
+  },
+  {
+    "qName": "Inventory",
+    "qTags": [],
+    "qSrcTables": [
+      "Sheet1$"
+    ]
+  },
+  {
+    "qName": "Invoice Date",
+    "qTags": [
+      "$numeric",
+      "$integer",
+      "$timestamp",
+      "$date"
+    ],
+    "qSrcTables": [
+      "Customer Good Sales DataSalesDetails"
+    ]
+  },
+  {
+    "qName": "Invoice Number",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Customer Good Sales DataSalesDetails"
+    ]
+  },
+  {
+    "qName": "Item Branch 2nd Item Number",
+    "qTags": [],
+    "qSrcTables": [
+      "Customer Good Sales DataFinalItemBranch"
+    ]
+  },
+  {
+    "qName": "Item Branch 3rd Item Number",
+    "qTags": [],
+    "qSrcTables": [
+      "Customer Good Sales DataFinalItemBranch"
+    ]
+  },
+  {
+    "qName": "Item Branch Category Code 6",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Customer Good Sales DataFinalItemBranch"
+    ]
+  },
+  {
+    "qName": "Item Branch Category Code 7",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Customer Good Sales DataFinalItemBranch"
+    ]
+  },
+  {
+    "qName": "Item Branch G/L Category",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Customer Good Sales DataFinalItemBranch"
+    ]
+  },
+  {
+    "qName": "Item Branch Primary Supplier",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Customer Good Sales DataFinalItemBranch"
+    ]
+  },
+  {
+    "qName": "Item Branch Reorder Quantity",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Customer Good Sales DataFinalItemBranch"
+    ]
+  },
+  {
+    "qName": "Item Class",
+    "qTags": [
+      "$key",
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Customer Good Sales DataFinalItemClass",
+      "Customer Good Sales DataSalesDetails"
+    ]
+  },
+  {
+    "qName": "Item Class Desc",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Customer Good Sales DataFinalItemClass"
+    ]
+  },
+  {
+    "qName": "Item Count",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Customer Good Sales DataFinalItemMaster"
+    ]
+  },
+  {
+    "qName": "Item Number",
+    "qTags": [],
+    "qSrcTables": [
+      "Customer Good Sales DataSalesDetails"
+    ]
+  },
+  {
+    "qName": "Item-Branch Key",
+    "qTags": [
+      "$key",
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Customer Good Sales DataFinalItemBranch",
+      "Customer Good Sales DataSales",
+      "Customer Good Sales DataSalesDetails"
+    ]
+  },
+  {
+    "qName": "LY TM Sales Amount",
+    "qTags": [
+      "$numeric"
+    ],
+    "qSrcTables": [
+      "Customer Good Sales DataFinalAggSales"
+    ]
+  },
+  {
+    "qName": "LY TM Sales Margin Amount",
+    "qTags": [
+      "$numeric"
+    ],
+    "qSrcTables": [
+      "Customer Good Sales DataFinalAggSales"
+    ]
+  },
+  {
+    "qName": "LY Tot Sales Amount",
+    "qTags": [
+      "$numeric"
+    ],
+    "qSrcTables": [
+      "Customer Good Sales DataFinalAggSales"
+    ]
+  },
+  {
+    "qName": "LY Tot Sales Margin Amount",
+    "qTags": [
+      "$numeric"
+    ],
+    "qSrcTables": [
+      "Customer Good Sales DataFinalAggSales"
+    ]
+  },
+  {
+    "qName": "LY YTD Sales Amount",
+    "qTags": [
+      "$numeric"
+    ],
+    "qSrcTables": [
+      "Customer Good Sales DataFinalAggSales"
+    ]
+  },
+  {
+    "qName": "LY YTD Sales Margin Amount",
+    "qTags": [
+      "$numeric"
+    ],
+    "qSrcTables": [
+      "Customer Good Sales DataFinalAggSales"
+    ]
+  },
+  {
+    "qName": "Last Status",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Customer Good Sales DataSalesDetails"
+    ]
+  },
+  {
+    "qName": "Late Shipment",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Customer Good Sales DataSalesDetails"
+    ]
+  },
+  {
+    "qName": "Lead Time",
+    "qTags": [],
+    "qSrcTables": [
+      "Sheet1$"
+    ]
+  },
+  {
+    "qName": "Line Desc 1",
+    "qTags": [
+      "$key",
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Customer Good Sales DataSalesDetails",
+      "Sheet1$"
+    ]
+  },
+  {
+    "qName": "Line Number",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Customer Good Sales DataSalesDetails"
+    ]
+  },
+  {
+    "qName": "Line Type",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Customer Good Sales DataSalesDetails"
+    ]
+  },
+  {
+    "qName": "Line of Business",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Customer Good Sales DataFinalCustomers"
+    ]
+  },
+  {
+    "qName": "List Price",
+    "qTags": [
+      "$numeric"
+    ],
+    "qSrcTables": [
+      "Customer Good Sales DataSalesDetails"
+    ]
+  },
+  {
+    "qName": "Low",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Customer Good Sales DataSalesdecile-1"
+    ]
+  },
+  {
+    "qName": "Master Planning Family",
+    "qTags": [
+      "$key"
+    ],
+    "qSrcTables": [
+      "Customer Good Sales DataFinalItemMaster",
+      "Customer Good Sales DataFinalMasterPlanning"
+    ]
+  },
+  {
+    "qName": "Master Planning Family Desc",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Customer Good Sales DataFinalMasterPlanning"
+    ]
+  },
+  {
+    "qName": "MaxNoOfItem",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Customer Good Sales DataSales"
+    ]
+  },
+  {
+    "qName": "Metric",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Sheet1-1"
+    ]
+  },
+  {
+    "qName": "Month",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Customer Good Sales DataDates2"
+    ]
+  },
+  {
+    "qName": "Next Status",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Customer Good Sales DataSalesDetails"
+    ]
+  },
+  {
+    "qName": "NoOfItem",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Customer Good Sales DataSales"
+    ]
+  },
+  {
+    "qName": "Number Of Days Late",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Customer Good Sales DataSalesDetails"
+    ]
+  },
+  {
+    "qName": "Open Order Amount",
+    "qTags": [
+      "$numeric"
+    ],
+    "qSrcTables": [
+      "Customer Good Sales DataSalesDetails"
+    ]
+  },
+  {
+    "qName": "Open Order Cost Amount",
+    "qTags": [
+      "$numeric"
+    ],
+    "qSrcTables": [
+      "Customer Good Sales DataSalesDetails"
+    ]
+  },
+  {
+    "qName": "Open Order Quantity",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Customer Good Sales DataSalesDetails"
+    ]
+  },
+  {
+    "qName": "Order Date 2",
+    "qTags": [
+      "$numeric",
+      "$integer",
+      "$timestamp",
+      "$date"
+    ],
+    "qSrcTables": [
+      "Customer Good Sales DataOrderDates1"
+    ]
+  },
+  {
+    "qName": "Order Date Header",
+    "qTags": [
+      "$key",
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Customer Good Sales DataFinalSalesHeader",
+      "Customer Good Sales DataOrderDates1"
+    ]
+  },
+  {
+    "qName": "Order Gross Amount",
+    "qTags": [
+      "$numeric"
+    ],
+    "qSrcTables": [
+      "Customer Good Sales DataFinalSalesHeader"
+    ]
+  },
+  {
+    "qName": "Order Margin",
+    "qTags": [
+      "$numeric"
+    ],
+    "qSrcTables": [
+      "Customer Good Sales DataSalesDetails"
+    ]
+  },
+  {
+    "qName": "Order Number",
+    "qTags": [
+      "$key",
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Customer Good Sales DataFinalSalesHeader",
+      "Customer Good Sales DatalinkBasket",
+      "Customer Good Sales DataOrderCount",
+      "Customer Good Sales DataSales",
+      "Customer Good Sales DataSalesDetails"
+    ]
+  },
+  {
+    "qName": "Order Status",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Customer Good Sales DataSalesDetails"
+    ]
+  },
+  {
+    "qName": "Order Status Primary",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Customer Good Sales DataSalesDetails"
+    ]
+  },
+  {
+    "qName": "Order Type Detail",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Customer Good Sales DataSalesDetails"
+    ]
+  },
+  {
+    "qName": "Order Type Header",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Customer Good Sales DataFinalSalesHeader"
+    ]
+  },
+  {
+    "qName": "OrderCount",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Customer Good Sales DataOrderCount"
+    ]
+  },
+  {
+    "qName": "OrderMonth",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Customer Good Sales DataOrderDates1"
+    ]
+  },
+  {
+    "qName": "OrderQuarter",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Customer Good Sales DataOrderDates1"
+    ]
+  },
+  {
+    "qName": "OrderYear",
+    "qTags": [
+      "$numeric",
+      "$integer",
+      "$timestamp",
+      "$date"
+    ],
+    "qSrcTables": [
+      "Customer Good Sales DataOrderDates1"
+    ]
+  },
+  {
+    "qName": "Orderby Header",
+    "qTags": [],
+    "qSrcTables": [
+      "Customer Good Sales DataFinalSalesHeader"
+    ]
+  },
+  {
+    "qName": "Parent Address Number",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Customer Good Sales DataSalesDetails"
+    ]
+  },
+  {
+    "qName": "Parent Address Number Header",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Customer Good Sales DataFinalSalesHeader"
+    ]
+  },
+  {
+    "qName": "Payment Terms",
+    "qTags": [],
+    "qSrcTables": [
+      "Customer Good Sales DataSalesDetails"
+    ]
+  },
+  {
+    "qName": "Phone",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Customer Good Sales DataFinalCustomers"
+    ]
+  },
+  {
+    "qName": "Price Discount Cde 4",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Customer Good Sales DataFinalCustomers"
+    ]
+  },
+  {
+    "qName": "Product Department",
+    "qTags": [],
+    "qSrcTables": [
+      "Customer Good Sales DataFinalItemMaster"
+    ]
+  },
+  {
+    "qName": "Product Group",
+    "qTags": [
+      "$key",
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Customer Good Sales DataFinalItemMaster",
+      "Customer Good Sales DataFinalProductGroup"
+    ]
+  },
+  {
+    "qName": "Product Group Desc",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Customer Good Sales DataFinalProductGroup"
+    ]
+  },
+  {
+    "qName": "Product Line",
+    "qTags": [
+      "$key",
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Customer Good Sales DataFinalItemMaster",
+      "Customer Good Sales DataFinalProductLine"
+    ]
+  },
+  {
+    "qName": "Product Line Desc",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Customer Good Sales DataFinalProductLine"
+    ]
+  },
+  {
+    "qName": "Product Price Group",
+    "qTags": [],
+    "qSrcTables": [
+      "Customer Good Sales DataFinalItemMaster"
+    ]
+  },
+  {
+    "qName": "Product Sub Group",
+    "qTags": [
+      "$key",
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Customer Good Sales DataFinalItemMaster",
+      "Customer Good Sales DataFinalProductSubGroup"
+    ]
+  },
+  {
+    "qName": "Product Sub Group Desc",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Customer Good Sales DataFinalProductSubGroup"
+    ]
+  },
+  {
+    "qName": "Product Type",
+    "qTags": [
+      "$key",
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Customer Good Sales DataFinalItemMaster",
+      "Customer Good Sales DataFinalProductType"
+    ]
+  },
+  {
+    "qName": "Product Type Desc",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Customer Good Sales DataFinalProductType"
+    ]
+  },
+  {
+    "qName": "Promised Delivery Date",
+    "qTags": [
+      "$numeric",
+      "$integer",
+      "$timestamp",
+      "$date"
+    ],
+    "qSrcTables": [
+      "Customer Good Sales DataSalesDetails"
+    ]
+  },
+  {
+    "qName": "QlikPoint",
+    "qTags": [
+      "$geopoint",
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Customer Good Sales DataZipData"
+    ]
+  },
+  {
+    "qName": "Qty Backordered",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Customer Good Sales DataSalesDetails"
+    ]
+  },
+  {
+    "qName": "Quarter",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Customer Good Sales DataDates2"
+    ]
+  },
+  {
+    "qName": "Region Code",
+    "qTags": [
+      "$key",
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Customer Good Sales DataFinalCustomers",
+      "Customer Good Sales DataFinalSalesRegion"
+    ]
+  },
+  {
+    "qName": "Region Name",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Customer Good Sales DataFinalSalesRegion"
+    ]
+  },
+  {
+    "qName": "Regional Sales Mgr",
+    "qTags": [
+      "$key",
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Customer Good Sales DataFinalCustomers",
+      "Customer Good Sales DataFinalRegional"
+    ]
+  },
+  {
+    "qName": "Regional Sales Mgr Name",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Customer Good Sales DataFinalRegional"
+    ]
+  },
+  {
+    "qName": "SIC Code",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Customer Good Sales DataFinalCustomers"
+    ]
+  },
+  {
+    "qName": "Sales Amount",
+    "qTags": [
+      "$numeric"
+    ],
+    "qSrcTables": [
+      "Customer Good Sales DataSalesDetails"
+    ]
+  },
+  {
+    "qName": "Sales Amount Based on List Price",
+    "qTags": [
+      "$numeric"
+    ],
+    "qSrcTables": [
+      "Customer Good Sales DataSalesDetails"
+    ]
+  },
+  {
+    "qName": "Sales Cost Amount",
+    "qTags": [
+      "$numeric"
+    ],
+    "qSrcTables": [
+      "Customer Good Sales DataSalesDetails"
+    ]
+  },
+  {
+    "qName": "Sales Margin Amount",
+    "qTags": [
+      "$numeric"
+    ],
+    "qSrcTables": [
+      "Customer Good Sales DataSalesDetails"
+    ]
+  },
+  {
+    "qName": "Sales Price",
+    "qTags": [
+      "$numeric"
+    ],
+    "qSrcTables": [
+      "Customer Good Sales DataSalesDetails"
+    ]
+  },
+  {
+    "qName": "Sales Quantity",
+    "qTags": [
+      "$numeric"
+    ],
+    "qSrcTables": [
+      "Customer Good Sales DataSalesDetails"
+    ]
+  },
+  {
+    "qName": "Sales Rep",
+    "qTags": [
+      "$key",
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Customer Good Sales DataFinalSalesRep",
+      "Customer Good Sales DataSalesDetails"
+    ]
+  },
+  {
+    "qName": "Sales Rep Name",
+    "qTags": [
+      "$key",
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Customer Good Sales DataFinalSalesRep",
+      "Sheet1-2"
+    ]
+  },
+  {
+    "qName": "Sales Rep Performance",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Sheet1-2"
+    ]
+  },
+  {
+    "qName": "Sales Unit Cost Price",
+    "qTags": [
+      "$numeric"
+    ],
+    "qSrcTables": [
+      "Customer Good Sales DataSalesDetails"
+    ]
+  },
+  {
+    "qName": "Sales Volume",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Customer Good Sales DataFinalCustomers"
+    ]
+  },
+  {
+    "qName": "Sales by Customer by YearQuarter",
+    "qTags": [
+      "$numeric"
+    ],
+    "qSrcTables": [
+      "Customer Good Sales DataSalesdecile-1"
+    ]
+  },
+  {
+    "qName": "Search Type",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Customer Good Sales DataFinalCustomers"
+    ]
+  },
+  {
+    "qName": "Ship To",
+    "qTags": [
+      "$key",
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Customer Good Sales DataFinalShipToAddress2",
+      "Customer Good Sales DataSalesDetails"
+    ]
+  },
+  {
+    "qName": "Ship To Address Header",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Customer Good Sales DataFinalSalesHeader"
+    ]
+  },
+  {
+    "qName": "Ship To City",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Customer Good Sales DataFinalShipToAddress2"
+    ]
+  },
+  {
+    "qName": "Ship To Country",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Customer Good Sales DataFinalShipToAddress2"
+    ]
+  },
+  {
+    "qName": "Ship To County",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Customer Good Sales DataFinalShipToAddress2"
+    ]
+  },
+  {
+    "qName": "Ship To Customer Address 1",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Customer Good Sales DataFinalShipToAddress2"
+    ]
+  },
+  {
+    "qName": "Ship To Customer Address 2",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Customer Good Sales DataFinalShipToAddress2"
+    ]
+  },
+  {
+    "qName": "Ship To Customer Address 3",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Customer Good Sales DataFinalShipToAddress2"
+    ]
+  },
+  {
+    "qName": "Ship To Customer Address 4",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Customer Good Sales DataFinalShipToAddress2"
+    ]
+  },
+  {
+    "qName": "Ship To State",
+    "qTags": [
+      "$key",
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Customer Good Sales DataFinalShipToAddress2",
+      "Customer Good Sales DataShipToMapCoordinates"
+    ]
+  },
+  {
+    "qName": "Ship To X",
+    "qTags": [
+      "$numeric"
+    ],
+    "qSrcTables": [
+      "Customer Good Sales DataShipToMapCoordinates"
+    ]
+  },
+  {
+    "qName": "Ship To Y",
+    "qTags": [
+      "$numeric"
+    ],
+    "qSrcTables": [
+      "Customer Good Sales DataShipToMapCoordinates"
+    ]
+  },
+  {
+    "qName": "Ship To Zip Code",
+    "qTags": [],
+    "qSrcTables": [
+      "Customer Good Sales DataFinalShipToAddress2"
+    ]
+  },
+  {
+    "qName": "Ship To Zip Code Short",
+    "qTags": [
+      "$key"
+    ],
+    "qSrcTables": [
+      "Customer Good Sales DataFinalShipToAddress2",
+      "Customer Good Sales DataZipData"
+    ]
+  },
+  {
+    "qName": "Shipments",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Customer Good Sales DataSalesDetails"
+    ]
+  },
+  {
+    "qName": "Short Name",
+    "qTags": [
+      "$key",
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Customer Good Sales DataFinalItemBranch",
+      "Customer Good Sales DataFinalItemMaster"
+    ]
+  },
+  {
+    "qName": "State",
+    "qTags": [
+      "$key",
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Sheet1",
+      "Customer Good Sales DataCustomerMapCoordinates",
+      "Customer Good Sales DataFinalCustomerAddress",
+      "Customer Good Sales DataProvince"
+    ]
+  },
+  {
+    "qName": "Stop Code Header",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Customer Good Sales DataFinalSalesHeader"
+    ]
+  },
+  {
+    "qName": "TM Budget Amount",
+    "qTags": [
+      "$numeric"
+    ],
+    "qSrcTables": [
+      "Customer Good Sales DataFinalYTDBudget"
+    ]
+  },
+  {
+    "qName": "TM Sales Amount",
+    "qTags": [
+      "$numeric"
+    ],
+    "qSrcTables": [
+      "Customer Good Sales DataFinalAggSales"
+    ]
+  },
+  {
+    "qName": "TM Sales Margin Amount",
+    "qTags": [
+      "$numeric"
+    ],
+    "qSrcTables": [
+      "Customer Good Sales DataFinalAggSales"
+    ]
+  },
+  {
+    "qName": "Tax Certificate",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Customer Good Sales DataFinalCustomers"
+    ]
+  },
+  {
+    "qName": "Type",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Customer Good Sales DataBudget3"
+    ]
+  },
+  {
+    "qName": "U/M",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Customer Good Sales DataSalesDetails"
+    ]
+  },
+  {
+    "qName": "Unit Price",
+    "qTags": [
+      "$numeric"
+    ],
+    "qSrcTables": [
+      "Customer Good Sales DataSalesDetails"
+    ]
+  },
+  {
+    "qName": "Week",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Customer Good Sales DataDates2"
+    ]
+  },
+  {
+    "qName": "Week Ending Date",
+    "qTags": [
+      "$numeric",
+      "$timestamp"
+    ],
+    "qSrcTables": [
+      "Customer Good Sales DataDates2"
+    ]
+  },
+  {
+    "qName": "Weekday",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Customer Good Sales DataDates2"
+    ]
+  },
+  {
+    "qName": "YTD Budget Amount",
+    "qTags": [
+      "$numeric"
+    ],
+    "qSrcTables": [
+      "Customer Good Sales DataFinalYTDBudget"
+    ]
+  },
+  {
+    "qName": "YTD Sales Amount",
+    "qTags": [
+      "$numeric"
+    ],
+    "qSrcTables": [
+      "Customer Good Sales DataFinalAggSales"
+    ]
+  },
+  {
+    "qName": "YTD Sales Margin Amount",
+    "qTags": [
+      "$numeric"
+    ],
+    "qSrcTables": [
+      "Customer Good Sales DataFinalAggSales"
+    ]
+  },
+  {
+    "qName": "Year",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Customer Good Sales DataDates2"
+    ]
+  },
+  {
+    "qName": "YearMonth",
+    "qTags": [
+      "$numeric",
+      "$integer",
+      "$timestamp",
+      "$date"
+    ],
+    "qSrcTables": [
+      "Customer Good Sales DataDates2"
+    ]
+  },
+  {
+    "qName": "Zip Code",
+    "qTags": [],
+    "qSrcTables": [
+      "Customer Good Sales DataFinalCustomerAddress"
+    ]
+  },
+  {
+    "qName": "Zone Code Header",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Customer Good Sales DataFinalSalesHeader"
+    ]
+  },
+  {
+    "qName": "Zone Mgr",
+    "qTags": [
+      "$key",
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Customer Good Sales DataFinalCustomers",
+      "Customer Good Sales DataFinalZone"
+    ]
+  },
+  {
+    "qName": "Zone Mgr Name",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Customer Good Sales DataFinalZone"
+    ]
+  },
+  {
+    "qName": "latitude",
+    "qTags": [
+      "$numeric"
+    ],
+    "qSrcTables": [
+      "Customer Good Sales DataZipData"
+    ]
+  },
+  {
+    "qName": "longitude",
+    "qTags": [
+      "$numeric"
+    ],
+    "qSrcTables": [
+      "Customer Good Sales DataZipData"
+    ]
+  },
+  {
+    "qName": "maptype",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Customer Good Sales Datamaptype"
+    ]
+  },
+  {
+    "qName": "state_abbr",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Customer Good Sales DataProvince"
+    ]
+  },
+  {
+    "qName": "state_name",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Customer Good Sales DataProvince"
+    ]
+  },
+  {
+    "qName": "textBudgetPeriod",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Customer Good Sales DataBudgetPeriod"
+    ]
+  }
+]

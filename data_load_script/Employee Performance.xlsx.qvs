@@ -1,0 +1,6 @@
+///$tab Employee Performance.xlsx
+LOAD
+    "Sales Rep Name",
+    "Sales Rep Performance"
+FROM [lib://Customer Good Sales Data2 (ip-0ab2a663_chuck)/Employee Performance.xlsx]
+(ooxml, embedded labels, table is Sheet1);
